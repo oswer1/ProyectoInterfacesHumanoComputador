@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <!-- Required meta tags -->
@@ -8,25 +8,23 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/icoweb.png" />
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="icon" type="image/png" href="img/icoweb.ico" />
-	<script src="js/bootstrap.min.js""></script>
-    <script type="text/javascript">
+    <link rel="icon" type="image/png" href="img/icoweb.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="icon" type="image/png" href="img/icoweb.ico">
 	document.oncontextmenu = function(){return false;}
 	</script>
   </head>
 <body class="imagenfondo"> 
 	<div class="social-bar"> <!-- Redes Sociales -->
-		<a href="https://www.facebook.com/Tulipsrestaurantandbar" class="icon icon-facebook" target="_blank"></a>
-		<a href="https://plus.google.com/u/0/103848001434625283577" class="icon icon-google-plus" target="_blank"></a>
-		<a href="https://twitter.com/tulipanspuno" class="icon icon-twitter" target="_blank"></a>
-		<a href="https://www.youtube.com/channel/UCQ07-XnvDz4YMmgMUpSVVQw?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
-		<a href="https://www.instagram.com/tulipansrestaurant" class="icon icon-instagram" target="_blank"></a>
+	<a href="https://www.facebook.com/Tulipsrestaurantandbar" class="icon icon-facebook" target="_blank"></a>
+	<a href="https://plus.google.com/u/0/103848001434625283577" class="icon icon-google-plus" target="_blank"></a>
+	<a href="https://twitter.com/tulipanspuno" class="icon icon-twitter" target="_blank"></a>
+	<a href="https://www.youtube.com/channel/UCQ07-XnvDz4YMmgMUpSVVQw?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
+	<a href="https://www.instagram.com/tulipansrestaurant" class="icon icon-instagram" target="_blank"></a>
 	</div>
-
-	<nav class="navbar navbar-inverse navbar-expand-md  navbar-dark " style="background-color: #FFBF00;">
+ <!-- Header -->
+		<nav class="navbar navbar-inverse navbar-expand-md  navbar-dark " style="background-color: #FFBF00;">
 		  <a class="navbar-brand page-scroll" href="index.html"><img src="img/logo4.png" class="img-fluid" style="height: 100px; background-color: #FFBF00;"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -62,10 +60,13 @@
 		        <a href="" class="btn btn-danger btn-sm" role="button" aria-pressed="true">Español</a>
 		        <a href="indexen.html" class="btn btn-outline-danger btn-sm" role="button" aria-pressed="true">English</a>
 		      </div>
+
+
 			  </div>
-	</nav>
+			</nav>
+
 <!-- Aqui va el Carousel -->
-      				<div id="MagicCarousel" class="carousel slide imagenfondo" data-ride="carousel" data-interval=2000>
+      			<div id="MagicCarousel" class="carousel slide imagenfondo" data-ride="carousel" data-interval=2000>
 				<ol class="carousel-indicators">
 					<li data-target="#MagicCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#MagicCarousel" data-slide-to="1"></li>
@@ -137,7 +138,7 @@
 					    <a href="zfondos.html" class="btn btn-outline-danger">Fotos Fondos</a>
 					  </div>
 					</div>
-				</div>
+				</div><br>
 				<div class="col-lg-3 col-md-6 col col-sm-12" align="center">
 					<div class="card" style="width: 100%;">
 					  <img class="card-img-top" src="img/carta/cafe/img007.jpg" alt="Card image cap">
@@ -322,11 +323,15 @@
 			</div>
 		</div>
 		</div>	
-	</footer>
-
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYFL-Y5rO2cGwEwE-3YHtrnN8r84mfBiM&language=esr&callback=initMap"></script>
-	<script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
+	</footer>        
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYFL-Y5rO2cGwEwE-3YHtrnN8r84mfBiM&language=esr&callback=initMap"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+
