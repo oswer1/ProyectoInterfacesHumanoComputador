@@ -27,4 +27,13 @@ e-mail: {$email}
 Hotel: {$hotel}
 Mensaje Extra: {$mensajeextra}
 
+"."\r\n";
+$mensaje.="Enviado el ".date('d/m/Y', time());
+
+$para='mantenimiento@tulipansrestaurant.com';
+$asunto='Reserva Web';
+mail($para, $asunto, utf8_decode($mensaje),$header);
+
+header("Location:http://tulipansrestaurant.com/index.html#exampleModal");
+
  ?>
