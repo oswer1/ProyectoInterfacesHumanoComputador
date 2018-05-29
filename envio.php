@@ -16,4 +16,15 @@ $header.="Mime-Version: 1.0 \r\n";
 $header.="Content-Type: text/plain";
 $mensajeHtml = nl2br($mensaje);
 $mensaje="
+
+Apellidos y Nombres: {$nombres}
+Numero de Personas: {$numeropersonas}
+Fecha: {$fecha}
+Hora: {$hora}
+Nacionalidad: {$nacionalidad}
+Nombre de la Reserva: {$nombrereserva}
+e-mail: {$email}
+Hotel: {$hotel}
+Mensaje Extra: {$mensajeextra}
+
  ?>
