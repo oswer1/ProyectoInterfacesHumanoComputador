@@ -17,6 +17,7 @@ $header.="Content-Type: text/plain";
 $mensajeHtml = nl2br($mensaje);
 $mensaje="
 
+Nueva Resrva para:
 Apellidos y Nombres: {$nombres}
 Numero de Personas: {$numeropersonas}
 Fecha: {$fecha}
@@ -26,7 +27,7 @@ Nombre de la Reserva: {$nombrereserva}
 e-mail: {$email}
 Hotel: {$hotel}
 Mensaje Extra: {$mensajeextra}
-
+Recibido el $mensaje.="Enviado el ".date('d/m/Y', time());
 "."\r\n";
 $mensaje.="Enviado el ".date('d/m/Y', time());
 
